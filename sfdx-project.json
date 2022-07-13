@@ -20,6 +20,13 @@
             "versionNumber": "1.0.4.NEXT"
         },
         {
+            "path": "./src/frameworks/nebula-logger",
+            "package": "nebula-logger",
+            "versionName": "Version 1.0",
+            "versionNumber": "1.0.5.0",
+            "isOptimizedDeployment":false
+        },
+        {
             "path": "./src/core-crm",
             "package": "core",
             "versionName": "Version 1.0.4",
@@ -81,10 +88,10 @@
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "52.0",
+    "sourceApiVersion": "54.0",
     "packageAliases": {
-        "feature-mgmt": "0Ho8v0000000006CAA",
-        "sfdc-logging@0.1.0.18": "04t1P000000IwqqQAC"
+        "sfdc-logging@0.1.0.18": "04t1P000000IwqqQAC",
+        "feature-mgmt": "0Ho8v0000000006CAA"
     },
     "plugins": {}
 }
