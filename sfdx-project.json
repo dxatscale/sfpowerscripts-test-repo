@@ -23,7 +23,7 @@
             "path": "./src/core-crm",
             "package": "core",
             "versionName": "Version 1.0.4",
-            "versionNumber": "1.0.4.0",
+            "versionNumber": "1.0.4.NEXT",
             "dependencies": [
                 {
                     "package": "sfdc-logging@0.1.0.18"
@@ -67,16 +67,7 @@
         },
         {
             "path": "./src-temp",
-            "package": "src-temp",
-            "versionName": "Version 1.0.0",
-            "versionNumber": "1.0.0.0",
-            "default": true,
-            "ignoreOnStage": [
-                "prepare",
-                "validate",
-                "quickbuild",
-                "build"
-            ]
+            "default": true
         }
     ],
     "namespace": "",
