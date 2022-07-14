@@ -48,7 +48,7 @@ jobs:
       - name: 'Authenticate Dev Hub'
         run: |
           echo "${{ secrets.DEVHUB_SFDX_AUTH_URL }}" > ./authfile
-          sfdx auth:sfdxurl:store -f authfile -a devhub
+          sfdx auth:sfdxurl:store -f authfile -a devhub -d 
 
 
 
